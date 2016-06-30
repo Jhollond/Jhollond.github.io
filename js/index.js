@@ -7,8 +7,6 @@ $(document).ready(function() {
   });
 
   $('.slick-work').slick({
-    slidesToShow: 1,
-    slidesToScroll: 1,
     arrows: false,
     fade: true,
     asNavFor: '.slick-nav',
@@ -20,8 +18,6 @@ $(document).ready(function() {
     variableWidth: true
   });
   $('.slick-nav').slick({
-    slidesToShow: 4,
-    slidesToScroll: 1,
     asNavFor: '.slick-work',
     arrows: false,
     dots: true,
