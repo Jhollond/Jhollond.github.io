@@ -16,7 +16,8 @@ $(document).ready(function() {
     autoplay: false,
     mobileFirst: true,
     LazyLoad: 'ondemand',
-    centerMode: true
+    centerMode: true,
+    variableWidth: true
   });
   $('.slick-nav').slick({
     slidesToShow: 4,
@@ -27,6 +28,7 @@ $(document).ready(function() {
     centerMode: true,
     focusOnSelect: true,
     mobileFirst: true,
-    LazyLoad: 'ondemand'
+    LazyLoad: 'ondemand',
+    variableWidth: true
   });
 });
