@@ -1,0 +1,62 @@
+/* add side borders and stuff */
+
+body {
+  margin: 0 auto !important;
+  padding;
+}
+@media only screen and (max-width: 750px) {
+    .width-border {
+        max-width: 100%;
+    }
+}
+@media only screen and (min-width: 750px) {
+    body {
+        max-width: 750px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .txt-social {
+        font-size: 0px !important;
+    }
+}
+
+/* for affix-nav */
+.navbar-form input, .form-inline input {
+	width:0 auto;
+}
+
+#nav.affix {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    max-width: 750px;
+    z-index:100;
+    margin: 0 auto !important;
+}
+
+#sidebar.affix-top {
+    position: static;
+}
+
+#sidebar.affix {
+    position: fixed;
+    top: 80px;
+}
+
+/* general CSS stuff */
+
+#section1 {font-size:15px;padding:7%;margin:2px;height:0 auto;color: #fff; background-color: #bdc3c7;}
+#section2 {font-size:15px;padding:7%;margin:2px;height:0 auto;color: #fff; background-color: #2ecc71;}
+#section3 {font-size:15px;padding:6%;margin:2px;height:200px;color: #fff; background-color: #3498db;text-align:center;}
+#section41 {font-size:15px;padding:4.75%;margin:2px;height:0 auto;color: #fff; background-color: #9b59b6;}
+#section42 {font-size:15px;padding:2%;margin:-2px;height:0 auto;color: #fff; background-color: #34495e;}
+#footer-h {text-align:center;font-size:75%;}
+#footer-p {text-align:center;font-size:75%;}
+
+.txt-social {
+  font-size: 66%;
+}
+
+.btn-social {
+  font-size: 133% !important;
+}
