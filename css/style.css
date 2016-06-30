@@ -43,13 +43,6 @@ body {
     top: 80px;
 }
 
-a.anchor {
-    display: block;
-    position: relative;
-    top: -100px;
-    visibility: hidden;
-}
-
 /* general CSS stuff */
 
 #section1 {font-size:15px;padding:7%;margin:2px;height:0 auto;color: #fff; background-color: #bdc3c7;}
