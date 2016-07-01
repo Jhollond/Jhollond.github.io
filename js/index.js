@@ -16,8 +16,8 @@ $(document).ready(function() {
     autoplay: false,
     mobileFirst: true,
     LazyLoad: 'ondemand',
-    centerMode: true,
-    variableWidth: true
+    variableWidth: true,
+    centerMode: true
   });
   $('.slick-nav').slick({
     slidesToShow: 4,
